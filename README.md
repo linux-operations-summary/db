@@ -117,7 +117,7 @@ And Mmap Maybe not required.
 FAQ
 ====
 
-Q: Do you use `mmap'? What if I don't want use `mmap'?
+Q: Do you use ``mmap``? What if I don't want use ``mmap``?
 A: Yes.Just use others,there is a lot of key/value database you can choose.
 
 Q: I tried this library,It's waste to much disk space and memory!
