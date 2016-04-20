@@ -1,8 +1,10 @@
 A New DBM in Pure C
 
+``PS：目测比较屌，学学``
 
-Demo:
+Demo
 =====
+```
 db_t db;
 db_option_t option;
 
@@ -23,9 +25,9 @@ if ((len = db_get(&db, "hi", strlen(...), val, sizeof(val))) == 0) {
 }
 
 db_close(&db);
+```
 
-
-Limited:
+Limited
 ========
 
 In 32 bit platform database file size is limited 4GiB*
@@ -35,7 +37,7 @@ Key/Value length is 32 bit unsigned int
 *Depends Your Operation System,Mostly can't get 4GiB map
 
 
-Design:
+Design
 =======
 
                 +----------+
@@ -101,7 +103,7 @@ Design:
                 +----------+
 
 
-Goal:
+Goal
 =====
 
 Keep it simple, stupid
@@ -112,7 +114,7 @@ And Mmap Maybe not required.
 *Litwin, Witold (1980), "Linear hashing: A new tool for file and table addressing"
 
 
-FAQ:
+FAQ
 ====
 
 Q: Do you use `mmap'? What if I don't want use `mmap'?
@@ -140,7 +142,7 @@ Q: I have a problem!
 A: Please contact the author.
 
 
-License:
+License
 ========
 
 Public Domain License
